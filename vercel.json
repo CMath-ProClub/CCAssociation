@@ -1,13 +1,7 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "api/index.go", "use": "@vercel/go" },
-    { "src": "public/**", "use": "@vercel/static" },
-    { "src": "assets/**", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/assets/(.*)", "dest": "/assets/$1" },
-    { "src": "/api/(.*)", "dest": "/api/index.go" },
-    { "src": "/(.*)", "dest": "/public/index.html" }
+  "buildCommand": "echo 'Static site, no build needed'",
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
