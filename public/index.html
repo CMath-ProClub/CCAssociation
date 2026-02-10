@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" data-page="index">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadott Community Association</title>
+  <meta name="description" content="Cadott Community Association events, meetings, and volunteer info." />
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body data-page="index" class="bg-cadott-sand/40 text-cadott-ink">
+  <header class="nav-shell" data-module="nav-shell">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+      <div class="flex items-center gap-3">
+        <span class="text-xl font-semibold" data-branding="org-name">Cadott Community Association</span>
+        <span class="hidden text-xs font-semibold uppercase tracking-[0.3em] text-slate-500 md:inline" data-branding="header-subtitle"></span>
+      </div>
+      <button class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 text-cadott-ink sm:hidden" aria-label="Toggle navigation" data-nav-toggle>
+        <span class="sr-only">Toggle navigation</span>
+        ☰
+      </button>
+      <nav class="hidden flex-col items-end gap-4 text-sm font-semibold text-cadott-ink sm:flex sm:flex-row sm:items-center" data-nav-menu>
+        <a href="#home">Home</a>
+        <a href="#involvement">Get Involved</a>
+        <a href="#events">Events</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="seasonal-banner hidden" data-seasonal-banner></div>
+
+  <main class="site-shell relative" data-module="site-shell">
+    <div class="organic-blob" style="width: 320px; height: 320px; top: 8%; left: -6%;"></div>
+    <div class="organic-blob" style="width: 380px; height: 380px; bottom: 6%; right: -8%;"></div>
+
+    <section id="home" class="space-y-8" data-module="hero-shell">
+      <div class="meta-strip" data-module="meta-strip">
+        <span class="countdown-label">Next big weekend</span>
+        <div class="event-countdown" data-countdown="2026-07-24T17:00:00">
+          <div class="countdown-units">
+            <div class="countdown-unit">
+              <span class="countdown-value" data-countdown-days>120</span>
+              <span class="countdown-suffix">Days</span>
+            </div>
+            <div class="countdown-unit">
+              <span class="countdown-value" data-countdown-hours>12</span>
+              <span class="countdown-suffix">Hours</span>
+            </div>
+            <div class="countdown-unit">
+              <span class="countdown-value" data-countdown-mins>30</span>
+              <span class="countdown-suffix">Mins</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid gap-8 lg:grid-cols-2 lg:items-center">
+        <div class="space-y-5">
+          <p class="section-label" data-module="section-label" data-config-text="home.hero.badge">Cadott, Wisconsin</p>
+          <h1 class="text-4xl font-semibold leading-tight" data-config-text="home.hero.title">Mission: strengthen Cadott by working side by side.</h1>
+          <p class="text-lg text-slate-700" data-config-text="home.hero.body">We keep things simple—short meetings, printed notes, and hometown events that anyone can join or enjoy.</p>
+          <div class="cta-cluster" data-module="cta-cluster" data-config-cta="home.heroButtons"></div>
+        </div>
+        <figure class="relative overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-card-soft">
+          <img class="hero-photo h-full w-full object-cover" data-config-attr data-config-key="home.hero.figure.src" alt="Cadott parade" src="https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/19554523-681567728699006-1629257994525173032-n_orig.jpg">
+          <figcaption class="px-5 py-4 text-sm text-slate-600" data-config-text="home.hero.figure.caption">Nabor Days parade floats and volunteers keep Main Street buzzing.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="involvement" class="panel-shell space-y-6" data-module="panel-shell">
+      <header class="space-y-2">
+        <p class="section-label" data-module="section-label" data-config-text="home.involvement.kicker">Get involved</p>
+        <h2 class="text-3xl font-semibold" data-config-text="home.involvement.title">How to plug in.</h2>
+        <p class="text-slate-700" data-config-text="home.involvement.subtitle">Three fast steps so you can raise your hand and help neighbors this season.</p>
+      </header>
+      <ul class="list-none" data-config-labeled-list="home.steps"></ul>
+      <div class="cta-cluster" data-module="cta-cluster" data-config-cta="home.getInvolvedButtons"></div>
+    </section>
+
+    <section id="nabor" class="panel-shell space-y-6" data-module="panel-shell">
+      <header class="space-y-2">
+        <p class="section-label" data-module="section-label" data-config-text="home.nabor.badge">Nabor Days</p>
+        <h2 class="text-3xl font-semibold" data-config-text="home.nabor.title">The last full weekend in July.</h2>
+        <p class="text-slate-700" data-config-text="home.nabor.body">Live music, sunrise runs, parades, and horsepower.</p>
+      </header>
+      <ul class="list-none" data-config-list="home.naborHighlights" data-list-variant="card"></ul>
+      <p class="text-sm text-slate-600" data-config-text="home.nabor.note"></p>
+    </section>
+
+    <section id="events" class="space-y-8">
+      <article class="panel-shell space-y-4" data-module="panel-shell">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <p class="section-label" data-module="section-label" data-config-text="event.kicker">December 20</p>
+            <h2 class="text-3xl font-semibold" data-config-text="event.title">Soup Sampler, Jazz Night, sleigh rides.</h2>
+          </div>
+          <div class="cta-cluster" data-module="cta-cluster" data-config-cta="event.heroButtons"></div>
+        </div>
+        <p class="text-slate-700" data-config-text="event.description"></p>
+        <p class="text-sm font-semibold uppercase tracking-[0.35em] text-slate-500" data-config-text="event.location"></p>
+        <ul class="list-none" data-config-list="event.schedule" data-list-type="text"></ul>
+        <div>
+          <h3 class="text-xl font-semibold">Detailed timeline</h3>
+          <div class="mt-4" data-config-list="event.timeline" data-list-type="timeline"></div>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold">Weekend preview</h3>
+          <ul class="mt-3 list-none" data-config-card-grid="event.preview"></ul>
+        </div>
+      </article>
+
+      <article class="panel-shell space-y-4" data-module="panel-shell">
+        <header class="space-y-2">
+          <p class="section-label" data-module="section-label">Season lineup</p>
+          <h3 class="text-2xl font-semibold">Event listings</h3>
+        </header>
+        <div class="space-y-3" data-config-accordion="eventListings"></div>
+      </article>
+    </section>
+
+    <section id="gallery" class="panel-shell space-y-4" data-module="panel-shell">
+      <header class="space-y-2">
+        <p class="section-label" data-module="section-label">Neighbors in action</p>
+        <h2 class="text-3xl font-semibold">Gallery</h2>
+      </header>
+      <div class="grid gap-4" data-config-gallery="gallery" data-gallery-columns="3"></div>
+    </section>
+
+    <section id="faq" class="panel-shell space-y-6" data-module="panel-shell">
+      <header class="space-y-2">
+        <p class="section-label" data-module="section-label">Questions</p>
+        <h2 class="text-3xl font-semibold">FAQ</h2>
+      </header>
+      <div class="grid gap-6 lg:grid-cols-2">
+        <div>
+          <h3 class="text-xl font-semibold">Community</h3>
+          <div class="mt-3 space-y-3" data-config-faq="faq.community"></div>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold">Festival</h3>
+          <div class="mt-3 space-y-3" data-config-faq="faq.festival"></div>
+        </div>
+      </div>
+      <div class="cta-cluster" data-module="cta-cluster" data-config-cta="faq.heroButtons"></div>
+    </section>
+
+    <section id="contact" class="panel-shell space-y-4" data-module="panel-shell">
+      <header class="space-y-2">
+        <p class="section-label" data-module="section-label">Stay in touch</p>
+        <h2 class="text-3xl font-semibold">Contact & meetings</h2>
+      </header>
+      <div class="grid gap-6 md:grid-cols-2">
+        <div class="space-y-3">
+          <h3 class="text-lg font-semibold">Board</h3>
+          <ul class="list-none" data-config-list="contact.board"></ul>
+        </div>
+        <div class="space-y-3">
+          <h3 class="text-lg font-semibold">Meeting cadence</h3>
+          <ul class="list-none" data-config-list="contact.cadence"></ul>
+        </div>
+      </div>
+      <div class="cta-cluster" data-module="cta-cluster" data-config-cta="contact.heroButtons"></div>
+      <div class="note-card" data-module="note-card">
+        <p class="text-sm text-slate-700">Email: <a class="text-cadott-blue underline" data-config-text="contact.email" href="mailto:cadott-community@googlegroups.com">cadott-community@googlegroups.com</a></p>
+        <p class="text-sm text-slate-700">Facebook: <a class="text-cadott-blue underline" data-config-text="contact.facebook" href="https://facebook.com/CadottNaborDays" target="_blank" rel="noreferrer noopener">facebook.com/CadottNaborDays</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-12 border-t border-slate-200 bg-white/90">
+    <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 text-sm text-slate-600 md:flex-row md:items-center md:justify-between">
+      <span data-branding="footer-note">Built with local pride.</span>
+      <span>&copy; <span data-year></span> <span data-branding="org-name">Cadott Community Association</span></span>
+    </div>
+  </footer>
+
+  <script src="/assets/js/theme.js" defer></script>
+  <script src="/assets/js/config.js" defer></script>
+  <script src="/assets/js/admin-mode.js" defer></script>
+  <script src="/assets/js/flowbite-inline-editor.js" defer></script>
+  <script type="module" src="/assets/js/main.js"></script>
+</body>
+</html>
