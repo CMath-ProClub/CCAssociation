@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
       row.className = uiClasses.rowStacked;
 
       const fields = [
-        { key: 'src', label: 'Image URL (https://...)', placeholder: 'https://images.unsplash.com/...', type: 'url' },
+        { key: 'src', label: 'Image URL (https://...)', placeholder: 'https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/20190727-095834_orig.jpg', type: 'url' },
         { key: 'alt', label: 'Alt text', placeholder: 'Describe the scene', type: 'text' },
         { key: 'caption', label: 'Caption', placeholder: 'Fun Run/Walk sets the tone...', type: 'text' }
       ];
