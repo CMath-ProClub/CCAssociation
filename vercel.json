@@ -1,4 +1,6 @@
 {
+  "buildCommand": "echo 'Static site'",
+  "outputDirectory": ".",
   "headers": [
     {
       "source": "/(.*).html",
