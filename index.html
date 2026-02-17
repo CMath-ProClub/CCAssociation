@@ -21,11 +21,11 @@
         ☰
       </button>
       <nav class="hidden flex-col items-end gap-4 text-sm font-semibold text-cadott-ink sm:flex sm:flex-row sm:items-center" data-nav-menu>
-        <a href="#home">Home</a>
-        <a href="#involvement">Get Involved</a>
-        <a href="#events">Events</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html" class="text-cadott-green">Home</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
@@ -81,94 +81,7 @@
       <div class="cta-cluster" data-module="cta-cluster" data-config-cta="home.getInvolvedButtons"></div>
     </section>
 
-    <section id="nabor" class="panel-shell space-y-6" data-module="panel-shell">
-      <header class="space-y-2">
-        <p class="section-label" data-module="section-label" data-config-text="home.nabor.badge">Nabor Days</p>
-        <h2 class="text-3xl font-semibold" data-config-text="home.nabor.title">The last full weekend in July.</h2>
-        <p class="text-slate-700" data-config-text="home.nabor.body">Live music, sunrise runs, parades, and horsepower.</p>
-      </header>
-      <ul class="list-none" data-config-list="home.naborHighlights" data-list-variant="card"></ul>
-      <p class="text-sm text-slate-600" data-config-text="home.nabor.note"></p>
-    </section>
 
-    <section id="events" class="space-y-8">
-      <article class="panel-shell space-y-4" data-module="panel-shell">
-        <div class="flex flex-wrap items-center justify-between gap-3">
-          <div>
-            <p class="section-label" data-module="section-label" data-config-text="event.kicker">December 20</p>
-            <h2 class="text-3xl font-semibold" data-config-text="event.title">Soup Sampler, Jazz Night, sleigh rides.</h2>
-          </div>
-          <div class="cta-cluster" data-module="cta-cluster" data-config-cta="event.heroButtons"></div>
-        </div>
-        <p class="text-slate-700" data-config-text="event.description"></p>
-        <p class="text-sm font-semibold uppercase tracking-[0.35em] text-slate-500" data-config-text="event.location"></p>
-        <ul class="list-none" data-config-list="event.schedule" data-list-type="text"></ul>
-        <div>
-          <h3 class="text-xl font-semibold">Detailed timeline</h3>
-          <div class="mt-4" data-config-list="event.timeline" data-list-type="timeline"></div>
-        </div>
-        <div>
-          <h3 class="text-xl font-semibold">Weekend preview</h3>
-          <ul class="mt-3 list-none" data-config-card-grid="event.preview"></ul>
-        </div>
-      </article>
-
-      <article class="panel-shell space-y-4" data-module="panel-shell">
-        <header class="space-y-2">
-          <p class="section-label" data-module="section-label">Season lineup</p>
-          <h3 class="text-2xl font-semibold">Event listings</h3>
-        </header>
-        <div class="space-y-3" data-config-accordion="eventListings"></div>
-      </article>
-    </section>
-
-    <section id="gallery" class="panel-shell space-y-4" data-module="panel-shell">
-      <header class="space-y-2">
-        <p class="section-label" data-module="section-label">Neighbors in action</p>
-        <h2 class="text-3xl font-semibold">Gallery</h2>
-      </header>
-      <div class="grid gap-4" data-config-gallery="gallery" data-gallery-columns="3"></div>
-    </section>
-
-    <section id="faq" class="panel-shell space-y-6" data-module="panel-shell">
-      <header class="space-y-2">
-        <p class="section-label" data-module="section-label">Questions</p>
-        <h2 class="text-3xl font-semibold">FAQ</h2>
-      </header>
-      <div class="grid gap-6 lg:grid-cols-2">
-        <div>
-          <h3 class="text-xl font-semibold">Community</h3>
-          <div class="mt-3 space-y-3" data-config-faq="faq.community"></div>
-        </div>
-        <div>
-          <h3 class="text-xl font-semibold">Festival</h3>
-          <div class="mt-3 space-y-3" data-config-faq="faq.festival"></div>
-        </div>
-      </div>
-      <div class="cta-cluster" data-module="cta-cluster" data-config-cta="faq.heroButtons"></div>
-    </section>
-
-    <section id="contact" class="panel-shell space-y-4" data-module="panel-shell">
-      <header class="space-y-2">
-        <p class="section-label" data-module="section-label">Stay in touch</p>
-        <h2 class="text-3xl font-semibold">Contact & meetings</h2>
-      </header>
-      <div class="grid gap-6 md:grid-cols-2">
-        <div class="space-y-3">
-          <h3 class="text-lg font-semibold">Board</h3>
-          <ul class="list-none" data-config-list="contact.board"></ul>
-        </div>
-        <div class="space-y-3">
-          <h3 class="text-lg font-semibold">Meeting cadence</h3>
-          <ul class="list-none" data-config-list="contact.cadence"></ul>
-        </div>
-      </div>
-      <div class="cta-cluster" data-module="cta-cluster" data-config-cta="contact.heroButtons"></div>
-      <div class="note-card" data-module="note-card">
-        <p class="text-sm text-slate-700">Email: <a class="text-cadott-blue underline" data-config-text="contact.email" href="mailto:cadott-community@googlegroups.com">cadott-community@googlegroups.com</a></p>
-        <p class="text-sm text-slate-700">Facebook: <a class="text-cadott-blue underline" data-config-text="contact.facebook" href="https://facebook.com/CadottNaborDays" target="_blank" rel="noreferrer noopener">facebook.com/CadottNaborDays</a></p>
-      </div>
-    </section>
   </main>
 
   <footer class="mt-12 border-t border-slate-200 bg-white/90">

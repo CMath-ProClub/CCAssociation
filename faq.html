@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-page="faq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ - Cadott Community Association</title>
+  <meta name="description" content="Frequently asked questions about Cadott Community Association" />
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body data-page="faq" class="bg-cadott-sand/40 text-cadott-ink">
+  <header class="nav-shell" data-module="nav-shell">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+      <div class="flex items-center gap-3">
+        <span class="text-xl font-semibold" data-branding="org-name">Cadott Community Association</span>
+      </div>
+      <button class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 text-cadott-ink sm:hidden" aria-label="Toggle navigation" data-nav-toggle>
+        <span class="sr-only">Toggle navigation</span>
+        ☰
+      </button>
+      <nav class="hidden flex-col items-end gap-4 text-sm font-semibold text-cadott-ink sm:flex sm:flex-row sm:items-center" data-nav-menu>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="faq.html" class="text-cadott-green">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-shell relative" data-module="site-shell">
+    <section id="faq" class="panel-shell space-y-6" data-module="panel-shell">
+      <header class="space-y-2">
+        <p class="section-label" data-module="section-label">Questions</p>
+        <h2 class="text-3xl font-semibold">FAQ</h2>
+      </header>
+      <div class="grid gap-6 lg:grid-cols-2">
+        <div>
+          <h3 class="text-xl font-semibold">Community</h3>
+          <div class="mt-3 space-y-3" data-config-faq="faq.community"></div>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold">Festival</h3>
+          <div class="mt-3 space-y-3" data-config-faq="faq.festival"></div>
+        </div>
+      </div>
+      <div class="cta-cluster" data-module="cta-cluster" data-config-cta="faq.heroButtons"></div>
+    </section>
+  </main>
+
+  <footer class="mt-12 border-t border-slate-200 bg-white/90">
+    <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 text-sm text-slate-600 md:flex-row md:items-center md:justify-between">
+      <span data-branding="footer-note">Built with local pride.</span>
+      <span>&copy; <span data-year></span> <span data-branding="org-name">Cadott Community Association</span></span>
+    </div>
+  </footer>
+
+  <script src="/assets/js/theme.js" defer></script>
+  <script src="/assets/js/config.js" defer></script>
+  <script src="/assets/js/admin-mode.js" defer></script>
+  <script src="/assets/js/flowbite-inline-editor.js" defer></script>
+  <script type="module" src="/assets/js/main.js"></script>
+</body>
+</html>

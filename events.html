@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-page="events">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events - Cadott Community Association</title>
+  <meta name="description" content="Cadott Community Association events calendar and details" />
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body data-page="events" class="bg-cadott-sand/40 text-cadott-ink">
+  <header class="nav-shell" data-module="nav-shell">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+      <div class="flex items-center gap-3">
+        <span class="text-xl font-semibold" data-branding="org-name">Cadott Community Association</span>
+      </div>
+      <button class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 text-cadott-ink sm:hidden" aria-label="Toggle navigation" data-nav-toggle>
+        <span class="sr-only">Toggle navigation</span>
+        ☰
+      </button>
+      <nav class="hidden flex-col items-end gap-4 text-sm font-semibold text-cadott-ink sm:flex sm:flex-row sm:items-center" data-nav-menu>
+        <a href="index.html">Home</a>
+        <a href="events.html" class="text-cadott-green">Events</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-shell relative" data-module="site-shell">
+    <section id="nabor" class="panel-shell space-y-6" data-module="panel-shell">
+      <header class="space-y-2">
+        <p class="section-label" data-module="section-label" data-config-text="home.nabor.badge">Nabor Days</p>
+        <h2 class="text-3xl font-semibold" data-config-text="home.nabor.title">The last full weekend in July.</h2>
+        <p class="text-slate-700" data-config-text="home.nabor.body">Live music, sunrise runs, parades, and horsepower.</p>
+      </header>
+      <ul class="list-none" data-config-list="home.naborHighlights" data-list-variant="card"></ul>
+      <p class="text-sm text-slate-600" data-config-text="home.nabor.note"></p>
+    </section>
+
+    <section id="events" class="space-y-8">
+      <article class="panel-shell space-y-4" data-module="panel-shell">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <p class="section-label" data-module="section-label" data-config-text="event.kicker">December 20</p>
+            <h2 class="text-3xl font-semibold" data-config-text="event.title">Soup Sampler, Jazz Night, sleigh rides.</h2>
+          </div>
+          <div class="cta-cluster" data-module="cta-cluster" data-config-cta="event.heroButtons"></div>
+        </div>
+        <p class="text-slate-700" data-config-text="event.description"></p>
+        <p class="text-sm font-semibold uppercase tracking-[0.35em] text-slate-500" data-config-text="event.location"></p>
+        <ul class="list-none" data-config-list="event.schedule" data-list-type="text"></ul>
+        <div>
+          <h3 class="text-xl font-semibold">Detailed timeline</h3>
+          <div class="mt-4" data-config-list="event.timeline" data-list-type="timeline"></div>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold">Weekend preview</h3>
+          <ul class="mt-3 list-none" data-config-card-grid="event.preview"></ul>
+        </div>
+      </article>
+
+      <article class="panel-shell space-y-4" data-module="panel-shell">
+        <header class="space-y-2">
+          <p class="section-label" data-module="section-label">Season lineup</p>
+          <h3 class="text-2xl font-semibold">Event listings</h3>
+        </header>
+        <div class="space-y-3" data-config-accordion="eventListings"></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="mt-12 border-t border-slate-200 bg-white/90">
+    <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 text-sm text-slate-600 md:flex-row md:items-center md:justify-between">
+      <span data-branding="footer-note">Built with local pride.</span>
+      <span>&copy; <span data-year></span> <span data-branding="org-name">Cadott Community Association</span></span>
+    </div>
+  </footer>
+
+  <script src="/assets/js/theme.js" defer></script>
+  <script src="/assets/js/config.js" defer></script>
+  <script src="/assets/js/admin-mode.js" defer></script>
+  <script src="/assets/js/flowbite-inline-editor.js" defer></script>
+  <script type="module" src="/assets/js/main.js"></script>
+</body>
+</html>

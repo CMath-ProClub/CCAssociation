@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-page="gallery">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Cadott Community Association</title>
+  <meta name="description" content="Photos from Cadott Community Association events" />
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body data-page="gallery" class="bg-cadott-sand/40 text-cadott-ink">
+  <header class="nav-shell" data-module="nav-shell">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+      <div class="flex items-center gap-3">
+        <span class="text-xl font-semibold" data-branding="org-name">Cadott Community Association</span>
+      </div>
+      <button class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 text-cadott-ink sm:hidden" aria-label="Toggle navigation" data-nav-toggle>
+        <span class="sr-only">Toggle navigation</span>
+        ☰
+      </button>
+      <nav class="hidden flex-col items-end gap-4 text-sm font-semibold text-cadott-ink sm:flex sm:flex-row sm:items-center" data-nav-menu>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html" class="text-cadott-green">Gallery</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-shell relative" data-module="site-shell">
+    <section id="gallery" class="panel-shell space-y-4" data-module="panel-shell">
+      <header class="space-y-2">
+        <p class="section-label" data-module="section-label">Neighbors in action</p>
+        <h2 class="text-3xl font-semibold">Gallery</h2>
+      </header>
+      <div class="grid gap-4" data-config-gallery="gallery" data-gallery-columns="3"></div>
+    </section>
+  </main>
+
+  <footer class="mt-12 border-t border-slate-200 bg-white/90">
+    <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 text-sm text-slate-600 md:flex-row md:items-center md:justify-between">
+      <span data-branding="footer-note">Built with local pride.</span>
+      <span>&copy; <span data-year></span> <span data-branding="org-name">Cadott Community Association</span></span>
+    </div>
+  </footer>
+
+  <script src="/assets/js/theme.js" defer></script>
+  <script src="/assets/js/config.js" defer></script>
+  <script src="/assets/js/admin-mode.js" defer></script>
+  <script src="/assets/js/flowbite-inline-editor.js" defer></script>
+  <script type="module" src="/assets/js/main.js"></script>
+</body>
+</html>
