@@ -122,88 +122,83 @@
       ]
     },
     event: {
-      kicker: 'December 20',
-      title: 'Soup Sampler, Jazz Night, sleigh rides.',
-      description: 'Taste soups, catch the combo, then board a free Boettcher Family Farms sleigh between 5:00 and 7:30 PM. Every ladle and song helps the Cadott jazz students reach Duluth.',
-      location: 'Cadott High School North Lot → Riverview Park',
+      kicker: 'Spring 2026',
+      title: 'Purse Bingo — designer bags, daubers & fun!',
+      description: 'Grab your friends for a night of bingo where the prizes are brand-name purses and accessories! Each game features a different designer bag. Extra dauber cards, raffles, and a cash bar keep the energy high all evening. Proceeds support Cadott Community Association events.',
+      location: 'Cadott Area — Check Facebook for venue details',
       heroButtons: [
         {
-          label: 'Volunteer on Dec 20',
-          href: 'mailto:cadott-community@googlegroups.com',
+          label: 'Get tickets / RSVP',
+          href: 'https://www.facebook.com/cadottcommunityassociation',
           style: 'primary'
         },
         {
-          label: 'Attend planning meeting',
-          href: 'contact.html#meetings',
+          label: 'Donate a purse',
+          href: 'mailto:cadott-community@googlegroups.com',
           style: 'secondary'
         }
       ],
       schedule: [
-        '5:00 PM · Doors, bake sale, cocoa bar',
-        '5:15 PM · Soup Sampler tasting lines start',
-        '5:00-5:45 PM · Jazz Night set one (fundraiser for Duluth trip)',
-        '6:15-7:00 PM · Jazz Night set two (fundraiser for Duluth trip)',
-        '5:00-7:30 PM · Free sleigh rides from the high school lot'
+        'Doors open · Grab your seat, buy extra dauber cards & raffle tickets',
+        'First game called · Regular bingo rounds with designer purse prizes',
+        'Intermission · Raffles, 50/50, and cash bar refills',
+        'Second half · Special rounds including blackout & pick-your-purse games',
+        'Final game & grand prize drawing'
       ],
       timeline: [
         {
-          title: 'Volunteer Setup',
-          time: '3:30 PM · Cadott High School North Parking Lot',
-          description: 'Stage décor, heaters, and tasting lines before doors open.'
+          title: 'Doors Open',
+          time: 'Check Facebook for times',
+          description: 'Find your seat, purchase extra bingo cards and raffle tickets. Cash bar and snacks available.'
         },
         {
-          title: 'Soup Sampler Opens',
-          time: '5:30 PM · Heated tasting tent',
-          description: 'Punch card in hand, sample crockpots from families, clubs, and cafés.'
+          title: 'Bingo Games Begin',
+          time: 'Shortly after doors',
+          description: 'Regular rounds of bingo — each game awards a different designer purse or accessory.'
         },
         {
-          title: 'Jazz Night & Bake Sale',
-          time: '5:00-5:45 PM & 6:15-7:00 PM · Stage by Riverview Park gate',
-          description: 'Cadott combo + student horns play to raise funds for the Duluth jazz trip while the bake sale keeps cocoa flowing between sets.'
+          title: 'Intermission & Raffles',
+          time: 'Midway through the evening',
+          description: '50/50 drawing, basket raffles, and a chance to grab snacks and drinks before the second half.'
         },
         {
-          title: 'Horse Drawn Sleigh Rides',
-          time: '5:00 - 7:30 PM · Christmas Village route',
-          description: 'Boettcher teams depart every 10 minutes, glide the river route, and reset.'
+          title: 'Special Rounds',
+          time: 'Second half of the evening',
+          description: 'Blackout bingo, pick-your-purse games, and bonus rounds with premium prizes.'
         },
         {
-          title: 'Community Toast',
-          time: '7:30 PM · Fire pit circle',
-          description: 'Board thanks volunteers and shares how proceeds will be used.'
-        },
-        {
-          title: 'Wrap & Clean-up',
-          time: '8:15 PM · Entire site',
-          description: 'Pack décor, wipe roasters, sweep the lot. Many hands, light work.'
+          title: 'Grand Prize & Wrap-up',
+          time: 'End of the evening',
+          description: 'Grand prize purse drawing, final raffle winners announced. Thanks for supporting CCA!'
         }
       ],
       highlights: [
-        'Ladle Award soups from restaurants, farms, and families.',
-        'Library storytime + ornament crafts while you wait.',
-        'Heated jazz lounge with cocoa, cider, and coffee.',
-        'Giving Tree collecting socks, pantry goods, gift cards.'
+        'Designer purse prizes — Coach, Kate Spade, Michael Kors & more.',
+        'Extra dauber cards and raffle tickets available at the door.',
+        'Cash bar with beer, wine, and cocktails.',
+        'All proceeds fund Cadott community events and programs.'
       ],
       preview: [
         {
-          title: 'Friday',
-          details: 'Truck & Tractor Pull under the lights · 7 PM.'
+          title: 'Tickets',
+          details: 'Check our Facebook page for ticket info and pricing.'
         },
         {
-          title: 'Saturday',
-          details: '5K, 800M dash, crafts, vendors, Mud Bog.'
+          title: 'What to bring',
+          details: 'Just yourself and your friends! Daubers provided or bring your own lucky one.'
         },
         {
-          title: 'Sunday',
-          details: '1 PM Main Street parade · email cadottchirodc@gmail.com.'
+          title: 'Donations',
+          details: 'Have a new purse to donate? Email cadott-community@googlegroups.com.'
         }
       ]
     },
     eventListings: [
       {
-        title: 'Soup Sampler & Jazz Night',
-        timing: 'December 20 · 5:00-8:00 PM · Riverview Park + High School',
-        summary: 'Indoor soup tasting, Cadott jazz combos, bake sale, and sleigh rides fund the Duluth trip.',
-        details: 'Volunteers needed for soup lines, cocoa station, stage crew, sleigh queue, and cleanup. Bring crock pots by 4 PM.'
+        title: 'Purse Bingo',
+        timing: 'Spring 2026 · Check Facebook for date & time',
+        summary: 'A night of bingo where every prize is a designer purse or accessory. Raffles, cash bar, and great company.',
+        details: 'Tickets available on our Facebook page. Proceeds support CCA events. Purse donations welcome — email the board.'
       },
       {
         title: 'Music in the Park',
