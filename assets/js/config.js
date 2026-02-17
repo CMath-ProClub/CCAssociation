@@ -5,7 +5,7 @@
     branding: {
       orgName: 'Cadott Community Association',
       headerTitle: 'Neighbors building Cadott since 1970',
-      headerSubtitle: 'Soup Samplers · Music in the Park · Nabor Days',
+      headerSubtitle: 'Purse Bingo · Music in the Park · Nabor Days',
       footerNote: 'Built with local pride.',
       headerButtons: [
         {
@@ -18,7 +18,7 @@
     meeting: {
       banner: 'Next meeting: TBD',
       heroTitle: 'Next meeting TBD.',
-      heroBody: 'We will post the date, time, and location as soon as the board confirms it. Show up, listen, and plug into Soup Sampler, Music in the Park, or Nabor Days work.'
+      heroBody: 'We will post the date, time, and location as soon as the board confirms it. Show up, listen, and plug into Purse Bingo, Music in the Park, or Nabor Days work.'
     },
     home: {
       hero: {
@@ -51,7 +51,7 @@
         },
         {
           label: 'Step 2',
-          body: 'Add your name to the volunteer sheet. We pair you with soup ladles, music nights, or Nabor Days shifts.'
+          body: 'Add your name to the volunteer sheet. We pair you with bingo nights, music events, or Nabor Days shifts.'
         },
         {
           label: 'Step 3',
@@ -117,7 +117,7 @@
       ],
       cadence: [
         'Updates · fundraising, sponsors, quick event recaps.',
-        'Planning · bingo, Music in the Park, Nabor Days, sleigh rides.',
+        'Planning · Purse Bingo, Music in the Park, Nabor Days, community events.',
         'Open floor · needs, ideas, and causes that need a boost.'
       ]
     },
@@ -215,24 +215,34 @@
     ],
     gallery: [
       {
-        src: 'https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=900&q=80',
-        alt: 'Runners lined up at the Nabor Days Fun Run start line',
+        src: 'https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/20190727-095834_orig.jpg',
+        alt: 'Runners at the Nabor Days Fun Run start line',
         caption: 'Fun Run/Walk sets the tone for the whole weekend.'
       },
       {
-        src: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80',
-        alt: 'Spectators watching trucks charge through the mud bog',
-        caption: 'Mud Bog crowds pack the bleachers along Hwy 27.'
+        src: 'https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/church-band_orig.jpg',
+        alt: 'Church band marching in the Nabor Days parade',
+        caption: 'Local bands bring the music down Main Street.'
       },
       {
-        src: 'https://images.unsplash.com/photo-1444384851176-6e23071c6127?auto=format&fit=crop&w=900&q=80',
-        alt: 'Truck splashing through mud during the bog',
-        caption: 'Drivers battle the pit while campers line the fence.'
+        src: 'https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/fire-trucks_orig.jpg',
+        alt: 'Fire trucks rolling through the Nabor Days parade',
+        caption: 'Cadott fire trucks lead the parade every year.'
       },
       {
-        src: 'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=900&q=80',
-        alt: 'Food truck serving barbecue during Nabor Days',
-        caption: 'Food trucks and Lions Club dinners keep everyone fed.'
+        src: 'https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/2022-queens_orig.jpg',
+        alt: '2022 Nabor Days Queens waving from parade float',
+        caption: 'Nabor Days royalty rides through downtown Cadott.'
+      },
+      {
+        src: 'https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/67136947-1086973161491792-6632270262052061184-n_orig.jpg',
+        alt: 'Queen coronation and Grand Marshal presentation on stage',
+        caption: 'Queen coronation night crowns Cadott pride.'
+      },
+      {
+        src: 'https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/park_orig.jpg',
+        alt: 'Families at Riverview Park along the Yellow River',
+        caption: 'Riverview Park — the heart of Cadott community life.'
       }
     ],
     faq: {

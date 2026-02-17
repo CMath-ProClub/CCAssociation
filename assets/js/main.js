@@ -253,7 +253,7 @@ function initSeasonalBanner() {
   } else if (month === 6) {
     message = '🎪 <strong>Nabor Days is coming!</strong> Get ready to celebrate with us.';
   } else if (month === 0 || month === 1) {
-    message = '❄️ Stay warm, neighbors! <strong>Soup Sampler</strong> season is here.';
+    message = '❄️ Stay warm, neighbors! <strong>Purse Bingo</strong> is coming up — grab your friends!';
   } else if (month >= 2 && month <= 4) {
     message = '🌷 Spring is here! Time to plan for <strong>summer festivities</strong>.';
   } else if (month >= 8 && month <= 10) {

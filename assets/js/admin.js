@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const control = field === 'description' ? document.createElement('textarea') : document.createElement('input');
         control.value = entry?.[field] || '';
-        control.placeholder = field === 'title' ? 'Jazz Night & Bake Sale' : field === 'time' ? '5:00-5:45 PM · Stage by Riverview Park gate' : 'Cadott combo + student horns...';
+        control.placeholder = field === 'title' ? 'Purse Bingo Round 1' : field === 'time' ? 'Doors open · Check Facebook for times' : 'Designer purse prizes each round...';
         if (field === 'description') {
           control.rows = 3;
         }
@@ -314,10 +314,10 @@ document.addEventListener('DOMContentLoaded', () => {
       row.className = uiClasses.rowStacked;
 
       const fields = [
-        { key: 'title', label: 'Event title', placeholder: 'Soup Sampler & Jazz Night', type: 'text' },
-        { key: 'timing', label: 'Timing + location', placeholder: 'December 20 · 5-8 PM · Riverview Park', type: 'text' },
-        { key: 'summary', label: 'Summary', placeholder: 'Indoor soup tasting, jazz combos, sleigh rides', type: 'textarea' },
-        { key: 'details', label: 'Details', placeholder: 'Volunteers needed for soup lines...', type: 'textarea' }
+        { key: 'title', label: 'Event title', placeholder: 'Purse Bingo Night', type: 'text' },
+        { key: 'timing', label: 'Timing + location', placeholder: 'Spring 2026 · Check Facebook for details', type: 'text' },
+        { key: 'summary', label: 'Summary', placeholder: 'Designer purse prizes, raffles, cash bar', type: 'textarea' },
+        { key: 'details', label: 'Details', placeholder: 'Tickets available on Facebook...', type: 'textarea' }
       ];
 
       fields.forEach(({ key, label, placeholder, type }) => {
