@@ -3,50 +3,156 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery - Cadott Community Association</title>
-  <meta name="description" content="Photos from Cadott Community Association events" />
+  <title>Gallery — Cadott Community Association</title>
+  <meta name="description" content="Photos from Nabor Days, Music in the Park, and community life in Cadott, Wisconsin." />
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/assets/js/theme.js"></script>
 </head>
-<body data-page="gallery" class="bg-cadott-sand/40 text-cadott-ink">
-  <header class="nav-shell" data-module="nav-shell">
-    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-      <div class="flex items-center gap-3">
-        <span class="text-xl font-semibold" data-branding="org-name">Cadott Community Association</span>
-      </div>
+<body data-page="gallery" class="bg-[#faf7f2] text-cadott-ink">
+
+  <!-- Sticky header -->
+  <header class="site-header sticky top-0 z-50 border-b border-slate-200/60 bg-white/95 backdrop-blur-md shadow-sm" data-module="nav-shell">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:py-4">
+      <a href="index.html" class="flex items-center gap-3 no-underline">
+        <span class="text-2xl">🏡</span>
+        <div>
+          <span class="text-lg font-bold tracking-tight text-cadott-ink" data-branding="org-name">Cadott Community Association</span>
+          <span class="hidden text-[0.65rem] font-semibold uppercase tracking-[0.3em] text-slate-400 md:block" data-branding="header-subtitle">Neighbors since 1970</span>
+        </div>
+      </a>
       <button class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 text-cadott-ink sm:hidden" aria-label="Toggle navigation" data-nav-toggle>
         <span class="sr-only">Toggle navigation</span>
-        ☰
+        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
       </button>
-      <nav class="hidden flex-col items-end gap-4 text-sm font-semibold text-cadott-ink sm:flex sm:flex-row sm:items-center" data-nav-menu>
-        <a href="index.html">Home</a>
-        <a href="events.html">Events</a>
-        <a href="gallery.html" class="text-cadott-green">Gallery</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html">Contact</a>
+      <nav class="hidden flex-col items-end gap-1 text-sm font-semibold sm:flex sm:flex-row sm:items-center sm:gap-1" data-nav-menu>
+        <a href="index.html" class="rounded-full px-4 py-2 text-cadott-ink hover:bg-slate-100 transition">Home</a>
+        <a href="events.html" class="rounded-full px-4 py-2 text-cadott-ink hover:bg-slate-100 transition">Events</a>
+        <a href="gallery.html" class="rounded-full bg-cadott-green/10 px-4 py-2 text-cadott-green transition">Gallery</a>
+        <a href="faq.html" class="rounded-full px-4 py-2 text-cadott-ink hover:bg-slate-100 transition">FAQ</a>
+        <a href="contact.html" class="rounded-full px-4 py-2 text-cadott-ink hover:bg-slate-100 transition">Contact</a>
       </nav>
     </div>
   </header>
 
   <main class="site-shell relative" data-module="site-shell">
+    <div class="organic-blob" style="width: 280px; height: 280px; top: 10%; left: -5%;"></div>
+
+    <!-- Page hero -->
+    <section class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-800 to-slate-900 px-8 py-12 text-white shadow-lg sm:py-16">
+      <div class="absolute inset-0 opacity-20">
+        <img class="h-full w-full object-cover" src="https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/19554523-681567728699006-1629257994525173032-n_orig.jpg" alt="" aria-hidden="true">
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/60"></div>
+      <div class="relative max-w-2xl space-y-4">
+        <p class="text-xs font-bold uppercase tracking-[0.3em] text-green-300">📸 Photo Gallery</p>
+        <h1 class="font-display text-4xl font-bold leading-tight sm:text-5xl">Neighbors in action.</h1>
+        <p class="text-lg text-slate-300">Parades, potlucks, and everything in between — Cadott through the lens.</p>
+      </div>
+    </section>
+
+    <!-- Config-driven gallery -->
     <section id="gallery" class="panel-shell space-y-4" data-module="panel-shell">
       <header class="space-y-2">
-        <p class="section-label" data-module="section-label">Neighbors in action</p>
-        <h2 class="text-3xl font-semibold">Gallery</h2>
+        <p class="section-label" data-module="section-label">Community photos</p>
+        <h2 class="font-display text-3xl font-bold tracking-tight">From our archives</h2>
+        <p class="text-slate-600">Browse highlights from past events, festivals, and daily life in Cadott.</p>
       </header>
       <div class="grid gap-4" data-config-gallery="gallery" data-gallery-columns="3"></div>
     </section>
+
+    <!-- Curated Cadott photos -->
+    <section class="panel-shell space-y-6" data-module="panel-shell">
+      <header class="space-y-2">
+        <p class="section-label" data-module="section-label">🌲 Around town</p>
+        <h2 class="font-display text-2xl font-bold tracking-tight">Cadott highlights</h2>
+      </header>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <figure class="group relative overflow-hidden rounded-2xl shadow-sm transition hover:shadow-lg">
+          <img class="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/20294234-681567775365668-2539194200402116317-n_orig.jpg" alt="Riverview Park during Nabor Days" loading="lazy">
+          <figcaption class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-4 py-3 text-sm font-medium text-white opacity-0 transition group-hover:opacity-100">Riverview Park · Nabor Days</figcaption>
+        </figure>
+        <figure class="group relative overflow-hidden rounded-2xl shadow-sm transition hover:shadow-lg">
+          <img class="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/published/60652439-941365229541547-9109737127872036864-n.jpg?1608661349" alt="Tractor pull at Nabor Days" loading="lazy">
+          <figcaption class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-4 py-3 text-sm font-medium text-white opacity-0 transition group-hover:opacity-100">Tractor Pull · Nabor Days</figcaption>
+        </figure>
+        <figure class="group relative overflow-hidden rounded-2xl shadow-sm transition hover:shadow-lg">
+          <img class="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/published/music-1.jpg?1608663177" alt="Live music at Riverview Park" loading="lazy">
+          <figcaption class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-4 py-3 text-sm font-medium text-white opacity-0 transition group-hover:opacity-100">Music in the Park</figcaption>
+        </figure>
+        <figure class="group relative overflow-hidden rounded-2xl shadow-sm transition hover:shadow-lg">
+          <img class="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/published/horses.jpg?1608662445" alt="Sleigh rides in Cadott" loading="lazy">
+          <figcaption class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-4 py-3 text-sm font-medium text-white opacity-0 transition group-hover:opacity-100">Winter Sleigh Rides</figcaption>
+        </figure>
+        <figure class="group relative overflow-hidden rounded-2xl shadow-sm transition hover:shadow-lg sm:col-span-2">
+          <img class="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://www.cadottcommunity.com/uploads/6/4/1/1/64113323/19554523-681567728699006-1629257994525173032-n_orig.jpg" alt="Nabor Days parade on Main Street" loading="lazy">
+          <figcaption class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-4 py-3 text-sm font-medium text-white opacity-0 transition group-hover:opacity-100">Main Street Parade · Nabor Days</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Facebook photos embed -->
+    <section class="panel-shell space-y-4" data-module="panel-shell">
+      <header class="flex flex-wrap items-center justify-between gap-3">
+        <div class="space-y-1">
+          <p class="section-label" data-module="section-label">📷 Facebook photos</p>
+          <h2 class="font-display text-2xl font-bold tracking-tight">More from our page</h2>
+        </div>
+        <a href="https://www.facebook.com/cadottcommunityassociation/photos" target="_blank" rel="noreferrer noopener" class="inline-flex items-center gap-2 rounded-full border border-cadott-blue/30 bg-cadott-blue/5 px-5 py-2 text-sm font-semibold text-cadott-blue transition hover:bg-cadott-blue/10">
+          <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          See all on Facebook
+        </a>
+      </header>
+      <div class="flex justify-center overflow-hidden rounded-2xl border border-slate-200/60">
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcadottcommunityassociation&tabs=timeline&width=500&height=600&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="600" style="border:none;overflow:hidden;max-width:100%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" loading="lazy" title="Cadott Community Association Facebook Photos"></iframe>
+      </div>
+    </section>
   </main>
 
-  <footer class="mt-12 border-t border-slate-200 bg-white/90">
-    <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 text-sm text-slate-600 md:flex-row md:items-center md:justify-between">
-      <span data-branding="footer-note">Built with local pride.</span>
-      <span>&copy; <span data-year></span> <span data-branding="org-name">Cadott Community Association</span></span>
+  <!-- Footer -->
+  <footer class="mt-12 border-t border-slate-200/60 bg-white/95">
+    <div class="mx-auto max-w-6xl px-4 py-10">
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="space-y-3">
+          <span class="text-lg font-bold" data-branding="org-name">Cadott Community Association</span>
+          <p class="text-sm text-slate-500" data-branding="footer-note">Built with local pride.</p>
+          <div class="flex gap-3">
+            <a href="https://www.facebook.com/cadottcommunityassociation" target="_blank" rel="noreferrer noopener" class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-slate-500 transition hover:bg-cadott-green hover:text-white" aria-label="Facebook">
+              <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="mailto:cadott-community@googlegroups.com" class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-slate-500 transition hover:bg-cadott-green hover:text-white" aria-label="Email">
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="mb-3 text-xs font-bold uppercase tracking-[0.15em] text-cadott-ink">Pages</h4>
+          <nav class="flex flex-col gap-2 text-sm text-slate-500">
+            <a href="index.html" class="hover:text-cadott-green transition">Home</a>
+            <a href="events.html" class="hover:text-cadott-green transition">Events</a>
+            <a href="gallery.html" class="hover:text-cadott-green transition">Gallery</a>
+          </nav>
+        </div>
+        <div>
+          <h4 class="mb-3 text-xs font-bold uppercase tracking-[0.15em] text-cadott-ink">Resources</h4>
+          <nav class="flex flex-col gap-2 text-sm text-slate-500">
+            <a href="faq.html" class="hover:text-cadott-green transition">FAQ</a>
+            <a href="contact.html" class="hover:text-cadott-green transition">Contact &amp; Meetings</a>
+          </nav>
+        </div>
+        <div>
+          <h4 class="mb-3 text-xs font-bold uppercase tracking-[0.15em] text-cadott-ink">Cadott, WI</h4>
+          <p class="text-sm leading-relaxed text-slate-500">Small town, big heart. Located in Chippewa County along the Yellow River.</p>
+        </div>
+      </div>
+      <div class="mt-8 border-t border-slate-100 pt-6 text-center text-xs text-slate-400">
+        &copy; <span data-year></span> <span data-branding="org-name">Cadott Community Association</span> · Made with ❤️ in Cadott
+      </div>
     </div>
   </footer>
 
-  <script src="/assets/js/theme.js" defer></script>
   <script src="/assets/js/config.js" defer></script>
   <script src="/assets/js/admin-mode.js" defer></script>
   <script src="/assets/js/flowbite-inline-editor.js" defer></script>
