@@ -3,9 +3,8 @@ module ccassociation
 go 1.26
 
 require (
-	github.com/a-h/templ v0.3.1020
 	github.com/labstack/echo/v4 v4.15.2
-	github.com/lmittmann/tint v1.1.3
+	github.com/lmittmann/tint v1.2.0
 	github.com/pressly/goose/v3 v3.27.1
 	github.com/samber/slog-echo v1.23.0
 	modernc.org/sqlite v1.50.1
